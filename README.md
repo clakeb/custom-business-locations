@@ -1,5 +1,5 @@
 # Plugin Name #
-**Contributors:** tatemz, ClakeB  
+**Contributors:** tatemz, clakeb 
 **Donate link:** http://anchor.is/donate  
 **Tags:** locations, business, google, maps, foundation, zurb  
 **Requires at least:** 3.0  
