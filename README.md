@@ -27,7 +27,7 @@ Support will be at the [GitHub repo] (https://github.com/anchorstudios/custom-bu
 
 1. Upload the `custom-business-locations` directory to the `/wp-content/plugins/` directory
 1. Activate the plugin through the 'Plugins' menu in WordPress
-1. Add your Google Maps API key on your WordPress site (Setting->Custom Business Locations).
+1. Add your Google Maps API key on your WordPress site (Settings->Custom Business Locations).
 1. Create and edit your locations.
 1. Place the `[cbl-map]` shortcode in your pages or posts
 
