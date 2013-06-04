@@ -3,7 +3,7 @@
 Plugin Name: Custom Business Locations
 Plugin URI: http://anchor.is/plugins/custom-business-locations
 Description: Add your business's locations and display a custom Google map with a shortcode.
-Version: 1.0.0
+Version: 1.0.1
 Author: Anchor Studios
 Author URI: http://anchor.is/
 
@@ -32,7 +32,7 @@ if ( ! class_exists( 'CBL_Plugin' ) ) {
  *
  * @package CustomBusinessLocations
  * @author Anchor Studios
- * @version 1.0.0
+ * @version 1.0.1
  * @since 1.0.0
  */
 class CBL_Plugin {
