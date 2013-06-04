@@ -1,0 +1,181 @@
+/*
+Plugin Name: Custom Business Locations
+Plugin URI: http://anchor.is/plugins/custom-business-locations
+Description: Add your business's locations and display a custom Google map with a shortcode.
+Version: 1.0.0
+Author: Anchor Studios
+Author URI: http://anchor.is/
+
+Copyright YEAR  PLUGIN_AUTHOR_NAME  (email : PLUGIN AUTHOR EMAIL)
+
+This program is free software; you can redistribute it and/or modify
+it under the terms of the GNU General Public License, version 2, as
+published by the Free Software Foundation.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program; if not, write to the Free Software
+Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
+*/
+
+/*----------------------------------------------------------
+                    The Setup
+----------------------------------------------------------*/
+     @import "compass";
+     @import "compass/css3";
+
+     // Dependencies
+     @import "admin/defaults/settings";
+
+/*----------------------------------------------------------
+                    The Defaults
+----------------------------------------------------------*/
+
+     // Pre-Stylistic Defaults
+
+/*----------------------------------------------------------
+                    Sprites
+----------------------------------------------------------*/
+
+// For more information about Compass Spriting, see this tutorial:
+// http://compass-style.org/help/tutorials/spriting/
+
+     // @import "zp-sprites/*.png";
+     // @include all-zp-sprites-sprites;
+
+
+/*----------------------------------------------------------
+                    Size Queries
+----------------------------------------------------------*/
+
+     // Base styles
+     @import "admin/sizes/base";
+
+     // // Phone
+     // @media #{ $phone } {
+     //      @import "admin/sizes/phone";
+     // }
+
+     // // Phablet
+     // @media #{ $phablet } {
+     //      @import "admin/sizes/phablet";
+     // }
+
+     // // Tablet
+     // @media #{ $tablet } {
+     //      @import "admin/sizes/tablet";
+     // }
+
+     // // Laptop
+     // @media #{ $laptop } {
+     //      @import "admin/sizes/laptop";
+     // }
+
+     // // Desktop
+     // @media #{ $desktop } {
+     //      @import "admin/sizes/desktop";
+     // }
+
+     // // SmartTV
+     // @media #{ $smartTV } {
+     //      @import "admin/sizes/smartTV";
+     // }
+
+/*----------------------------------------------------------
+                    Device Queries
+----------------------------------------------------------*/
+
+     // Google Nexus 7
+     @media screen and (device-width: 600px) and (device-height: 905px) and (-webkit-min-device-pixel-ratio: 1.331) and (-webkit-max-device-pixel-ratio: 1.332) {
+          @import "admin/devices/nexus7";
+     }
+
+     // iPads 1, 2, 3, 4, & Mini
+     @media screen and (device-width: 768px) and (device-height: 1024px) {
+          @import "admin/devices/ipad_all";
+     }
+
+     // iPad 1, 2, and Mini
+     @media screen and (device-width: 768px) and (device-height: 1024px) and (-webkit-device-pixel-ratio: 1) {
+          @import "admin/devices/ipad_1_2_mini";
+     }
+
+     // iPad 3 & 4
+     @media screen and (device-width: 768px) and (device-height: 1024px) and (-webkit-device-pixel-ratio: 2) {
+          @import "admin/devices/ipad_3_4";
+     }
+
+     // iPhones 3G, 4, & 5
+     @media screen and (device-width: 320px) and (device-height: 480px) {
+          @import "admin/devices/iphone_all";
+     }
+
+     // iPhone 3G
+     @media screen and (device-width: 320px) and (device-height: 480px) and (-webkit-device-pixel-ratio: 1) {
+          @import "admin/devices/iphone_3g";
+     }
+
+     // iPhone 4
+     @media screen and (device-width: 320px) and (device-height: 480px) and (-webkit-device-pixel-ratio: 2) {
+          @import "admin/devices/iphone_4";
+     }
+
+     // iPhone 5
+     @media screen and (device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2) {
+          @import "admin/devices/iphone_5";
+     }
+
+     // Printer
+     @media print {
+          @import "admin/devices/printer";
+     }
+
+     // 3D Screens
+     // Note: This is not supported yet.
+     // @media 3d-glasses {
+     //      @import "devices/3d_screens";
+     // }
+
+
+/*----------------------------------------------------------
+                    Browser Queries
+----------------------------------------------------------*/
+
+     // Internet Explorer 9 & 10
+     @media screen and (min-width:0\0) {
+          @import "admin/browsers/ie9and10.scss"
+     }
+
+     // Internet Explorer 10
+     @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+          @import "admin/browsers/ie10.scss"
+     }
+
+
+/*----------------------------------------------------------
+                    Resolution Queries
+----------------------------------------------------------*/
+
+     // Retina Display
+     @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+     	@import "admin/resolutions/_@2x"
+     }
+
+     // 1.25 dpr
+     @media (-webkit-min-device-pixel-ratio: 1.25), (min-resolution: 120dpi){
+     	@import "admin/resolutions/_@1.25x"
+     }
+
+     // 1.3 dpr
+     @media (-webkit-min-device-pixel-ratio: 1.3), (min-resolution: 124.8dpi){
+     	@import "admin/resolutions/_@1.3x"
+     }
+
+     // 1.5 dpr
+     @media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi){
+     	@import "admin/resolutions/_@1.5x"
+     }

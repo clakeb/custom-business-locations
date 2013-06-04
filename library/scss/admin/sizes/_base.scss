@@ -1,0 +1,36 @@
+/*
+ * File: _base.scss
+ * Description: Base Styles - Not dependent on device size.
+ *
+ */
+.wp-admin {
+     #cbl-location-address, #cbl-location-hours, #cbl-location-notice {
+
+          .inside {
+               @import "foundation/components/global";
+               @import "foundation/components/grid";
+               @import "foundation/components/type";
+               @import "foundation/components/buttons";
+               @import "foundation/components/forms";
+               @import "foundation/components/custom-forms";
+               @import "foundation/components/labels";
+               @import "foundation/components/tables";
+               font-size: 13px;
+
+               input {
+                    @include border-radius(0);
+                    border-width: 0;
+                    border: none;
+
+                    &#address_search {
+                         right: -1px;
+                         position: relative;
+                    }
+               }
+
+               .operation-day-fieldset.row {
+                    padding: 15px 0;
+               }
+          }
+     }
+}
