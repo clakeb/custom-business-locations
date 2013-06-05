@@ -1,12 +1,12 @@
-# Plugin Name #
-**Contributors:** tatemz
-**Donate link:** http://anchor.is/donate
-**Tags:** locations, business, google, maps, foundation, zurb
-**Requires at least:** 3.0
-**Tested up to:** 3.5
-**Stable tag:** 1.0.1
-**License:** GPLv2 or later
-**License URI:** http://www.gnu.org/licenses/gpl-2.0.html
+# Custom Business Locations #
+Contributors: tatemz
+Donate link: http://anchor.is/donate
+Tags: locations, business, google, maps, foundation, zurb
+Requires at least: 3.0
+Tested up to: 3.5
+Stable tag: 1.0.1
+License: GPLv2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 Create and edit your business's locations, contact information, and hours of operation. Display them on a custom Google map with a shortcode.
 
@@ -30,8 +30,4 @@ Support will be at the [GitHub repo] (https://github.com/anchorstudios/custom-bu
 1. Add your Google Maps API key on your WordPress site (Settings->Custom Business Locations).
 1. Create and edit your locations.
 1. Place the `[cbl-map]` shortcode in your pages or posts
-
-## Screenshots ##
-
-1. Custom Google map display with custom notices, hours of operation, and contact information.
 
