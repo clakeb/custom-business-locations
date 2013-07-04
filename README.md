@@ -1,6 +1,6 @@
 # Custom Business Locations #
 Contributors: tatemz
-Donate link: http://anchor.is/donate
+Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=6ES8NWDUF8XUU
 Tags: locations, business, google, maps, foundation, zurb
 Requires at least: 3.0
 Tested up to: 3.5
