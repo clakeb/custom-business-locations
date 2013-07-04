@@ -1,18 +1,11 @@
 === Plugin Name ===
 Contributors: tatemz
-
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=6ES8NWDUF8XUU
-
 Tags: locations, business, google, maps, foundation, zurb
-
 Requires at least: 3.0
-
 Tested up to: 3.5
-
 Stable tag: 1.1.0
-
 License: GPLv2 or later
-
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 Create and edit your business's locations, contact information, and hours of operation. Display them on a custom Google map with a shortcode.
