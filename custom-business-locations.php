@@ -273,7 +273,6 @@ class CBL_Plugin {
         }
         ob_start();
         ?>
-        <p>Hello World! I'm a shortcode!'</p>
         <div class="cbl-shortcode-wrap">
             <div class="row collapse">
                 <div class="small-12 large-5 columns">
