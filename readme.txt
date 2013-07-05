@@ -36,8 +36,10 @@ Support will be at the [GitHub repo] (https://github.com/anchorstudios/custom-bu
 
 == Changelog ==
 
-= 1.1.1 =
+= 1.1.1 & 1.1.2 =
 * Minor bug fix with phone numbers not being displayed
+* Minor bug fix with old plugin options taking over new ones
+* Compressed CSS
 
 = 1.1 =
 * Many speed fixes (Javascript was drastically simplified)

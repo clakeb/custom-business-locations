@@ -13,15 +13,15 @@
 	# http_path = "/wp-content/themes/anchorstudios/"
 
 # Next, we should tell Compass what kind of project stage we are in.
-	# Development
-	output_style = :expanded
-	environment = :development
-	line_comments = true
+	# # Development
+	# output_style = :expanded
+	# environment = :development
+	# line_comments = true
 
-	# # Production
-	# output_style = :compressed
-	# environment = :production
-	# line_comments = false
+	# Production
+	output_style = :compressed
+	environment = :production
+	line_comments = false
 
 # Okay, now we point Compass to our project's designated directories.
 	# Project Assets Locations

@@ -3,7 +3,7 @@
 Plugin Name: Custom Business Locations
 Plugin URI: http://anchor.is/plugins/custom-business-locations
 Description: Add your business's locations and display a custom Google map with a shortcode.
-Version: 1.1.1
+Version: 1.1.2
 Author: Anchor Studios
 Author URI: http://anchor.is/
 
@@ -32,7 +32,7 @@ class CBL_Plugin {
     /**
      * @var string
      **/
-    public $version = '1.1.1';
+    public $version = '1.1.2';
 
     /**
      * @var string
@@ -321,15 +321,15 @@ class CBL_Plugin {
                                             <thead><tr><th>Hours:</th><th></th></tr></thead>
                                             <tbody>
                                                 <?php foreach ( $days as $day ) : ?>
-                                                    <?php $closed = ( $this->options['locations'][$location_id][ strtolower( $day ) ]['closed'] == 'closed' ) ? true : false; ?>
-                                                    <?php $from = ( isset( $this->options['locations'][$location_id][ strtolower( $day ) ]['from'] ) ) ? $this->options['locations'][$location_id][ strtolower( $day ) ]['from']   : '12:00'; ?>
+                                                    <?php $closed = ( $location[ strtolower( $day ) ]['closed'] == 'closed' ) ? true : false; ?>
+                                                    <?php $from = ( isset( $location[ strtolower( $day ) ]['from'] ) ) ? $location[ strtolower( $day ) ]['from']   : '12:00'; ?>
                                                     <?php $from = date( 'g:i a', strtotime( $from ) ) ?>
-                                                    <?php $to = ( isset( $this->options['locations'][$location_id][ strtolower( $day ) ]['to'] ) ) ? $this->options['locations'][$location_id][ strtolower( $day ) ]['to']   : '12:00'; ?>
+                                                    <?php $to = ( isset( $location[ strtolower( $day ) ]['to'] ) ) ? $location[ strtolower( $day ) ]['to']   : '12:00'; ?>
                                                     <?php $to = date( 'g:i a', strtotime( $to ) ) ?>
                                                     <tr>
                                                         <td><?php echo substr( $day, 0, 3 ) ?>.</td>
                                                         <?php if( $closed ) : ?>
-                                                            <td><i>Closed</i></td>
+                                                            <td><i>( Closed )</i></td>
                                                         <?php else : ?>
                                                             <td><i><?php echo $from ?> - <?php echo $to ?></i></td>
                                                         <?php endif; ?>
