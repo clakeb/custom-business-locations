@@ -3,7 +3,7 @@
 Plugin Name: Custom Business Locations
 Plugin URI: http://anchor.is/plugins/custom-business-locations
 Description: Add your business's locations and display a custom Google map with a shortcode.
-Version: 1.1.0
+Version: 1.1.1
 Author: Anchor Studios
 Author URI: http://anchor.is/
 
@@ -32,7 +32,7 @@ class CBL_Plugin {
     /**
      * @var string
      **/
-    public $version = '1.1.0';
+    public $version = '1.1.1';
 
     /**
      * @var string
@@ -306,7 +306,7 @@ class CBL_Plugin {
                                             <tbody>
                                                 <tr>
                                                     <td>Phone:</td>
-                                                    <td><a href="tel:<?php echo $phone ?>"><?php echo $$phone ?></a></td>
+                                                    <td><a href="tel:<?php echo $phone ?>"><?php echo $phone ?></a></td>
                                                 </tr>
                                                 <tr>
                                                     <td>Email:</td>

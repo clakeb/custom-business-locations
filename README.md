@@ -9,7 +9,7 @@ Requires at least: 3.0
 
 Tested up to: 3.5
 
-Stable tag: 1.1.0
+Stable tag: 1.1.1
 
 License: GPLv2 or later
 
@@ -40,6 +40,9 @@ Support will be at the [GitHub repo] (https://github.com/anchorstudios/custom-bu
 1. Place the `[cbl-map]` shortcode in your pages or posts
 
 ## Changelog ##
+
+# 1.1.1 #
+* Minor bug fix with phone numbers not being displayed
 
 # 1.1 #
 * Many speed fixes (Javascript was drastically simplified)

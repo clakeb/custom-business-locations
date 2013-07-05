@@ -4,7 +4,7 @@ Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_i
 Tags: locations, business, google, maps, foundation, zurb
 Requires at least: 3.0
 Tested up to: 3.5
-Stable tag: 1.1.0
+Stable tag: 1.1.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -35,6 +35,9 @@ Support will be at the [GitHub repo] (https://github.com/anchorstudios/custom-bu
 1. Custom Google map display with custom notices, hours of operation, and contact information.
 
 == Changelog ==
+
+= 1.1.1 =
+* Minor bug fix with phone numbers not being displayed
 
 = 1.1 =
 * Many speed fixes (Javascript was drastically simplified)

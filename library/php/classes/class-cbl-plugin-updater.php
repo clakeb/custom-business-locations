@@ -10,13 +10,14 @@
  */
 class CBL_Plugin_Updater {
     public function __construct( $old, $new ) {
+        global $custom_business_locations;
         if ( $old != $new ) {
             switch ( $old ) {
                 case false: // 1.0.1
                     $this->one();
                 break;
                 default:
-                    return;
+                    update_option( 'cbl_plugin_version', $custom_business_locations->version );
                 break;
             }
         }
